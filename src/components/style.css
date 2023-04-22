@@ -1,0 +1,48 @@
+.container {
+   overflow: auto;
+	position: relative;
+}
+h1{
+   text-align: center;
+   font-size: 70px;
+   padding: 40px;
+   font-family: monospace;
+   color: grey;
+}
+table{
+   border-collapse: collapse;
+   display: inline-block;
+	vertical-align: top;
+	max-width: 99%;
+	overflow-x: auto;
+	white-space: nowrap;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+   border-spacing: 5px;
+   background: #ECE9E0;
+   color: #656665;
+   border: 16px solid #ECE9E0;
+   border-radius: 20px;
+}
+th, td:first-child {
+   color: #656665;
+   padding: 10px 20px;
+   }
+th, td {
+border-style: solid;
+border-width: 0 1px 2px 0;
+border-color: white;
+}
+td {
+   background: #F5D7BF;
+   }
+th:first-child, td:first-child {
+   text-align: left;
+   }
+input{
+   padding: 0.8rem;
+   border-radius: 0.3rem;
+   border: 0.1rem solid #F5D7BF; 
+}
+
+
+
